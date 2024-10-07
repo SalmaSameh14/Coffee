@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;  
+   
+  
+}
+
+body{
+    background-color: rgb(231, 212, 188);
+    
+    
+
+}
+h1{
+
+    text-align: center;
+    color: rgb(105, 63, 7); 
+    padding: 30px;
+
+
+}
+
+.header{
+    
+    background-color: rgb(161, 105, 32);
+    width: 500px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center; 
+    height: 50px;
+   margin: auto;
+   margin-top: 50px;
+}
+
+
+.navbar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item { 
+    padding:0%;
+    margin: 20px;
+    
+    
+  
+}
+ 
+
+.nav-links a{
+    text-decoration: none;
+    padding: 5px ;
+    color: aliceblue;
+}
+ .pot a{
+    background-color: aliceblue;
+    color:rgb(161, 105, 32);
+    border-radius: 40px;
+    padding: 10px; ;
+    
+    border: 10px solid rgb(161, 105, 32);
+    margin:20px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:20px;
+  
+} 
+
+.item a:hover{
+   color: rgb(158, 128, 128);
+}
+
+
+.pot .img1 {
+    border-radius: 50%; /* بخليها مظبوطه فالنص*/
+    width: 30px;
+    height: 30px;
+    align-items: center;
+
+}
+    
+  
+
+/* started main */
+.pot1{
+    margin: 0 20px 400px 50px;
+    padding:10px;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(8px 8px 10px rgba(116, 116, 116, 0.747));
+    -webkit-filter: drop-shadow(8px 8px 10px rgb(39, 39, 39));
+   
+      
+}
+.pot3{
+    float:right;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 1px 22px 152px 348px;
+    position: relative;
+    filter: drop-shadow(8px 8px 10px rgb(39, 39, 39));
+    -webkit-filter: drop-shadow(8px 8px 10px rgb(39, 39, 39));
+}
+
+.pot2{
+    width:300px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    margin:-300px 300px 50px;
+    padding-top: 10px;
+    /*text-align: center;
+    */position: relative;
+    filter: drop-shadow(8px 8px 10px  rgba(39, 39, 39, 0.39));
+    -webkit-filter: drop-shadow(8px 8px 10px  rgba(39, 39, 39, 0.39));
+}
+
+/* p{
+    text-align: center;
+    margin:-120px 180px;
+} */
+
+h2{
+   text-align: center;
+    padding-right: 250px;
+    padding-top: 2px;
+    margin-bottom: 35px;
+    
+   
+}
+.prg{
+   
+    padding-right: 50px;
+    margin-top: 10px;
+    padding-right: 216px;
+    margin-bottom: 550px;
+    text-align: center;
+   
+
+}
+.img3{
+    right:0;
+   margin: -300px auto;
+   position: absolute;
+   z-index: -1;
+    width: 300px;
+    filter: drop-shadow(8px 1px 10px  rgba(39, 39, 39, 0.582));
+    -webkit-filter: drop-shadow(8px 1px 10px  rgba(39, 39, 39, 0.582));
+}
+
+/* Started menu */
+
+.awesome   {
+background-color:  rgb(201, 159, 112);
+color: #080808;
+text-align: center;
+padding: 10% 20px; /* المسافة داخل القسم */
+margin: -400px auto; /* مسافة بين الأقسام */
+box-shadow: 8px 7px 8px  rgba(46, 46, 41, 0.685);
+
+}
+
+.cookies{
+    margin-left:-100px;
+    float: left;
+    margin-top:-20px;
+    filter: drop-shadow(8px 1px 10px  rgba(39, 39, 39, 0.582));
+    -webkit-filter: drop-shadow(8px 1px 10px  rgba(39, 39, 39, 0.582));
+}
+
+h3{
+    text-align: center;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+    top: 0%;
+    margin-top: -80px;
+    margin-right: 145px;
+}
+.menu .left {
+  float: left;
+  list-style-type:none;
+  margin-left: 200px;
+  margin-top: -35px;
+
+}
+
+.menu .right{
+    float: right;
+    list-style-type:none;
+   padding-right: 100px;
+   margin-top: -35px;
+   margin-right: 150px;
+}
+
+section{
+    background-color: rgb(231, 212, 188);
+  margin: 600px auto;
+  text-align: center;
+}
+
+.img2{
+    float: right;
+   margin-right: -50px;
+   margin-bottom: 50px;
+}
